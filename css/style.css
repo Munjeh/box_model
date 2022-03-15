@@ -1,5 +1,5 @@
 * {
-  margin: 5px;
+  margin: 1px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -9,16 +9,14 @@ body {
   background-color: rgb(162, 189, 180);
 }
 .logo {
-  width: 80px;
+  width: 30px;
   display: inline-block;
-}
-.log img {
-  width: 80px;
 }
 nav {
   display: inline-block;
   vertical-align: top;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 100px;
 }
 nav li {
   display: inline-block;
@@ -48,7 +46,6 @@ nav li a:active {
 h1 {
   font-family: monospace;
   font-weight: bolder;
-  margin-left: 5px;
 }
 h2 {
   font-size: 1.5rem;
@@ -56,10 +53,11 @@ h2 {
   font-weight: 100px;
 }
 .h2 {
-  border: 1px solid red;
+  border: 2px solid rgb(14, 10, 10);
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
+  padding-bottom: 5px;
 }
 img {
   width: 100px;
@@ -69,16 +67,17 @@ img {
   margin-left: 50px;
   display: inline-block;
 }
+
 .page {
-  border: 1px white solid;
-  background-color: white;
+  border: 0px white solid;
+  background-color: rgba(255, 255, 255, 0.431);
   padding: 10px;
 }
 aside {
   border: 2px inset rgb(240, 22, 22);
   background-color: rgba(255, 182, 193, 0.445);
   font-size: bold;
-  width: 170px;
+  width: 380px;
 }
 aside {
   border-top-style: none;
@@ -96,6 +95,7 @@ aside {
 }
 .article_2 {
   width: 200px;
+  vertical-align: top;
 }
 footer {
   border: 2px solid red;
