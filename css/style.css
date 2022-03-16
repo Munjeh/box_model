@@ -12,6 +12,13 @@ body {
   width: 30px;
   display: inline-block;
 }
+.wrapper {
+  margin: 0 auto;
+  background-color: rgb(206, 255, 255);
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
 nav {
   display: inline-block;
   vertical-align: top;
@@ -65,7 +72,7 @@ img {
   border: 1x blue solid;
   border-radius: 50%;
   margin-left: 50px;
-  display: inline-block;
+  margin-top: 10px;
 }
 
 .page {
@@ -78,6 +85,8 @@ aside {
   background-color: rgba(255, 182, 193, 0.445);
   font-size: bold;
   width: 380px;
+  height: 150px;
+  margin-top: 2rem;
 }
 aside {
   border-top-style: none;
@@ -89,13 +98,14 @@ aside {
   background-color: rgba(255, 182, 193, 0.431);
   width: 200%;
   max-width: 700%;
+  display: inline-block;
 }
 .article_1 {
   width: 200px;
 }
 .article_2 {
   width: 200px;
-  vertical-align: top;
+  margin-top: 2rem;
 }
 footer {
   border: 2px solid red;
@@ -106,4 +116,5 @@ footer {
   border: 2px solid red;
   margin: 15px;
   text-align: center;
+  margin: o auto;
 }
